@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SeverList>
+	<Relay ipPort="10.130.68.152:33537">
+		<name>localRelay11</name>
+	</Relay>
+	<Relay ipPort="10.130.68.152:33538">
+		<name>localRelay12</name>
+	</Relay>
+	<Stp ipPort="10.130.68.152:20018">
+		<name>localSTP</name>
+	</Stp>
+	<Stprc ipPort="10.130.68.152:20012">
+		<name>localSTPRC</name>
+	</Stprc>
+	<Relayrc ipPort="10.130.68.152:10032">
+		<name>localRelayRC</name>
+	</Relayrc>
+	<NPS ipPort="http://222.73.29.12:8018/nps_x1/parameter/getServiceParameters">
+		<name>nps_x1</name>
+	</NPS>
+	<BS ipPort="http://103.25.23.103:20001/MeetingManage/callService">
+		<name>MeetingManage</name>
+	</BS>
+	<EC ipPort="http://103.25.23.99/EnterpriseUserCenter/eucService">
+		<name>EnterpriseUserCenter</name>
+	</EC>
+	<UPDATE ipPort="http://175.102.132.85:20010/UpgradeService/callService">
+		<name>UpdateSever</name>
+	</UPDATE>
+</SeverList>
